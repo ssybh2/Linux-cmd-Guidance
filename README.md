@@ -1,6 +1,6 @@
 # Linux Command Guidance
 
-这个仓库用于整理 Linux / ROS 2 开发中常用的命令与排错教程。
+这个仓库用于整理 Linux / Windows / ROS 2 开发中常用的命令与排错教程。
 
 ## 教程目录
 
@@ -11,6 +11,10 @@ Ubuntu 下使用 ST-Link 和 OpenOCD 给 STM32 烧录 `.elf` 固件，包括连�
 ### [Linux `chown` 工作空间权限修复教程](./CHOWN.md)
 
 讲解 `chown` 的命令格式，以及如何修复 ROS 2 工作空间、Git 仓库、`build/install/log` 被 root 占有后出现的 `Permission denied` 问题。
+
+### [Windows TUN](./WINDOWS_TUN.md)
+
+Windows + Clash Verge / Mihomo TUN 网络排错：浏览器正常但 Codex CLI 一直 `Reconnecting`、代理环境变量冲突，以及 NoMachine / 私网地址的 TUN 路由检查方法。
 
 ---
 
