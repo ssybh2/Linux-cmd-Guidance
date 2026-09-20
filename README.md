@@ -4,6 +4,10 @@
 
 ## 教程目录
 
+### [STM32H750 原版工程编译与 ST-Link + OpenOCD 烧录教程](./H750_FLASHING.md)
+
+完整记录 STM32H750（AIMEtherCAT/EcatV2_AX58100_H750_Universal）原版代码克隆、SOES 子模块初始化、Release ELF 编译、ST-Link 检测、reset halt 超时排查、Flash 烧录校验与运行检查。
+
 ### [ST-Link + OpenOCD 固件烧录教程](./STLINK_OPENOCD.md)
 
 Ubuntu 下使用 ST-Link 和 OpenOCD 给 STM32 烧录 `.elf` 固件，包括连接检测、烧录、校验和常见错误排查。
