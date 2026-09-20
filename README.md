@@ -4,6 +4,14 @@
 
 ## 教程目录
 
+### [ROS 2 rosbag 指定话题与多次录制教程](./ROSBAG_SELECTED_TOPICS.md)
+
+录制指定的 RC、双 IMU、DShot 等话题；使用时间戳为每次实验单独保存 rosbag，附录制脚本、数据检查和 ZIP 打包命令。
+
+### [Python 3 临时 HTTP 服务器与 Windows 浏览器下载教程](./PYTHON_HTTP_WINDOWS_DOWNLOAD.md)
+
+从 Ubuntu 启动临时文件服务器，查询局域网 IP，在 Windows 浏览器下载 rosbag ZIP，包含网络排查与安全注意事项。
+
 ### [STM32H750 烧录教程](./H750_FLASHING.md)
 
 完整记录 STM32H750（AIMEtherCAT/EcatV2_AX58100_H750_Universal）原版代码克隆、SOES 子模块初始化、Release ELF 编译、ST-Link 检测、reset halt 超时排查、Flash 烧录校验与运行检查。
