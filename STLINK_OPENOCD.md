@@ -289,6 +289,13 @@ sudo openocd \
   -f ~/hipnucimu/st_nucleo_g4.cfg \
   -c "adapter speed 1000; init; reset halt; program \"$ELF\" verify reset exit"
 ```
+如果不行试试这个
+```bash
+sudo openocd \
+  -f /home/hby/hipnucimu/st_nucleo_g4.cfg \
+  -c 'stm32g4x.cpu configure -event reset-start {adapter speed 1000}' \
+  -c 'adapter speed 1000; program {/home/hby/firmware-elf-10/hipnucimu.elf} verify reset exit'
+```
 
 ---
 
